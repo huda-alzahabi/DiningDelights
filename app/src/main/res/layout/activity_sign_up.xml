@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg5"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="250dp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:hint="@string/nameText" />
+
+    <EditText
+        android:id="@+id/Mobile"
+        android:layout_width="250dp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:inputType="textPhonetic"
+        android:hint="@string/mobileText" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="250dp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:inputType="textEmailAddress"
+        android:hint="@string/emailText" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="250dp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:gravity="center_horizontal"
+        android:hint="@string/passText" />
+
+    <EditText
+        android:id="@+id/Password2"
+        android:layout_width="250dp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:hint="@string/passText2" />
+
+    <EditText
+        android:id="@+id/Location"
+        android:layout_width="250dp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/locationText" />
+
+    <Button
+        android:id="@+id/addClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="onClickSubmit"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/signup" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="capstone.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".DishRestActivity"></activity>
+        <activity android:name=".LoginSignUpRestActivity" />
+        <activity android:name=".LoginSignUpClientActivity" />
+        <activity android:name=".OrderDetailActivity" />
+        <activity android:name=".ChooseCategoryRestActivity" />
+        <activity android:name=".EditAboutActivity" />
+        <activity android:name=".KitchenOrdersActivity" />
+        <activity android:name=".SignUpRestActivity" />
+        <activity android:name=".ResetPassRestActivity" />
+        <activity android:name=".LoginRestActivity" />
+        <activity android:name=".ChooseRestaurantActivity" />
+        <activity android:name=".StartersActivity" />
+        <activity android:name=".DrinksActivity" />
+        <activity android:name=".DessertsActivity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".MainMenuActivity" />
+        <activity android:name=".ThankYouActivity" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".CallingWaiterActivity" />
+        <activity android:name=".WaitingActivity" />
+        <activity android:name=".ConfirmLocationActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".DishActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ResetPassActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

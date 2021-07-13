@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">DiningDelights</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="login">Connexion</string>
+    <string name="forgotPassText">Mot de passe oublié?</string>
+    <string name="resetPassText">Réinitialiser</string>
+    <string name="nameText">Nom et prénom</string>
+    <string name="mobileText">Numéro de téléphone</string>
+    <string name="emailText">Adresse e-mail</string>
+    <string name="passText">Mot de passe</string>
+    <string name="passText2">Confirmez le mot de passe</string>
+    <string name="locationText">Emplacement</string>
+
+    <string name="nameDesc">Nom et prénom:</string>
+    <string name="mobileDesc">Numéro de téléphone</string>
+    <string name="emailDesc">Adresse e-mail</string>
+    <string name="locationDesc">Emplacement</string>
+
+    <string name="editProfText">Editer le profil</string>
+    <string name="changePassText">Changer le mot de passe</string>
+    <string name="logoutText">Se déconnecter</string>
+
+    <string name="submitChanges">Soumettre des changements</string>
+    <string name="oldPassText">Ancien mot de passe</string>
+    <string name="newPassText">Nouveau mot de passe</string>
+    <string name="signupInstead">S\'inscrire à la place ?</string>
+    <string name="LoginClient">Client</string>
+    <string name="LoginRestuarant">Restaurant</string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="initialItemNum">0</string>
+    <string name="addToCart">Ajouter au panier</string>
+
+    <string name="confirmLocationText">Confirmer</string>
+
+
+    <string name="cart">Panier</string>
+    <string name="help">Aide</string>
+    <string name="profile">Profil</string>
+    <string name="menu">Menu</string>
+    <string name="rate"> Taux </string>
+
+
+    <string name="exp"> Comment s\'estpassée votre expérience? </string>
+    <string name="getRate"> Taux de soumission </string>
+
+    <string name="goHomeText">Rentrer à la maison</string>
+
+    <string name="waiterText">Le serveur est en route...</string>
+    <string name="displayMenuText">Afficher le menu</string>
+
+
+    <string name="viewOrder">Afficher la commande</string>
+    <!-- À FAIRE : Supprimer ou modifier ce texte d'espace réservé -->
+
+    <string name="itemName">Article</string>
+    <string name="itemQty">Quantité</string>
+    <string name="itemPrice">Prix</string>
+    <string name="order">Commande</string>
+
+    <string name="priceText">Total :</string>
+
+    <string name="hintLoc">HomeLocation/TableNo</string>
+    <string name="DineIn">Dine In</string>
+    <string name="Delivery">Livraison</string>
+
+    <string name="editText"> Modifier</string>
+    <string name="contactUs">Contactez-nous via :</string>
+
+    <string name="FoodCatText">Assiettes</string>
+    <string name="DrinksCatText">Boissons</string>
+    <string name="DessertsCatText">Desserts</string>
+    <string name="StartersCatText">Entrées</string>
+
+    <string name="dishName">Nom</string>
+    <string name="dishPrice">Prix</string>
+    <string name="dishImage">Image</string>
+
+    <string name="EditMenu">Modifier le menu</string>
+    <string name="EditProfile">Modifier le profil</string>
+    <string name="ViewMenu">Afficher le menu</string>
+
+    <string name="Add">Ajouter</string>
+    <string name="contactInfo">Informations de contact :</string>
+
+    <string name="orderList"> Commandes</string>
+
+    <string name="waiting">Le serveur a été appelé, veuillez patienter.</string>
+    <string name="ty">Merci de votre patience !</string>
+</resources>

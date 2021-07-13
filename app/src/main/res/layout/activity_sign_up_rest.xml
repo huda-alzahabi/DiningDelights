@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg5"
+    android:orientation="vertical"
+    tools:context=".SignUpRestActivity">
+
+
+
+    <EditText
+        android:id="@+id/RestName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="@string/nameText"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/RestMobile"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/mobileText"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:inputType="textPhonetic" />
+
+    <EditText
+        android:id="@+id/RestEmail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/emailText"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/RestPassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/passText"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/RestPassword2"
+        android:layout_width="250dp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="@string/passText2"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/addRest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="onClickSubmit"
+        android:text="@string/signup" />
+
+
+</LinearLayout>

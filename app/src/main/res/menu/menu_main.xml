@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_action_menu"
+        android:orderInCategory="1"
+        android:title="@string/menu"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_action_help"
+        android:orderInCategory="3"
+        android:title="@string/help"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_action_logout"
+        android:orderInCategory="3"
+        android:title="@string/help"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_action_info"
+        android:orderInCategory="1"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/ic_action_rate"
+        android:orderInCategory="1"
+        android:title="@string/rate"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/ic_action_cart"
+        android:orderInCategory="2"
+        android:title="@string/cart"
+        app:showAsAction="always" />
+
+
+</menu>

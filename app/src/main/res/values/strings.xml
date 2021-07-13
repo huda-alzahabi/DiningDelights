@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">DiningDelights</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="forgotPassText">Forgot Password?</string>
+    <string name="resetPassText">Reset</string>
+    <string name="nameText">Full Name</string>
+    <string name="mobileText">Phone Number</string>
+    <string name="emailText">Email Address</string>
+    <string name="passText" translatable="false">Password</string>
+    <string name="passText2">Confirm Password</string>
+    <string name="locationText">Location</string>
+
+    <string name="nameDesc">Full Name:</string>
+    <string name="mobileDesc">Phone Number:</string>
+    <string name="emailDesc">Email Address:</string>
+    <string name="locationDesc">Location Address:</string>
+
+    <string name="editProfText">Edit Profile</string>
+    <string name="changePassText">Change Password</string>
+    <string name="logoutText">Logout</string>
+
+    <string name="submitChanges">Submit Changes</string>
+    <string name="oldPassText">Old Password</string>
+    <string name="newPassText">New Password</string>
+    <string name="signupInstead">SignUp Instead?</string>
+    <string name="LoginClient">Client</string>
+    <string name="LoginRestuarant">Restaurant</string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="initialItemNum" translatable="false">0</string>
+    <string name="addToCart">Add To Cart</string>
+
+    <string name="confirmLocationText">Confirm</string>
+
+
+    <string name="cart">Cart</string>
+    <string name="help">Help</string>
+    <string name="profile">Profile</string>
+    <string name="menu">Menu</string>
+    <string name="rate">Rate</string>
+
+
+    <string name="exp">How was your experience?</string>
+    <string name="getRate">Submit Rate</string>
+
+    <string name="goHomeText">Go Home</string>
+
+    <string name="waiterText">The waiter is on his way...</string>
+    <string name="displayMenuText">Display Menu</string>
+
+
+    <string name="viewOrder">View Order</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="itemName">Item</string>
+    <string name="itemQty">Quantity</string>
+    <string name="itemPrice">Price</string>
+    <string name="order">Order</string>
+
+    <string name="priceText">Total:</string>
+
+    <string name="hintLoc">HomeLocation/TableNo</string>
+    <string name="DineIn">Dine In</string>
+    <string name="Delivery">Delivery</string>
+
+    <string name="editText">Edit</string>
+    <string name="contactUs">Contact Us via:</string>
+
+    <string name="FoodCatText">Plates</string>
+    <string name="DrinksCatText">Drinks</string>
+    <string name="DessertsCatText">Desserts</string>
+    <string name="StartersCatText">Starters</string>
+
+    <string name="dishName">Name</string>
+    <string name="dishPrice">Price</string>
+    <string name="dishImage">Image</string>
+
+    <string name="EditMenu">Edit Menu</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="ViewMenu">View Menu</string>
+
+    <string name="Add">Add</string>
+    <string name="contactInfo">Contact Info:</string>
+
+    <string name="orderList">Orders</string>
+
+    <string name="waiting">The waiter has been called, plase wait.</string>
+    <string name="ty">Thank you for your patience!</string>
+</resources>

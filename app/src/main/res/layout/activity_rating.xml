@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".RatingActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_marginTop="50dp"
+        android:text="@string/exp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/contactUs"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/phoneNumRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="onClickPhone"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/emailRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumRate"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="15dp"
+        android:onClick="onClickEmail"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/rate"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/emailRate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/experience" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rate"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:saveEnabled="true" />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar1"
+        android:onClick="onClickSubmitRate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/getRate"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
